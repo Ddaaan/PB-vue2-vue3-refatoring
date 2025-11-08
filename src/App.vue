@@ -1,17 +1,10 @@
+<!-- App.vue - Example5: E-09-composition-API2.vue -->
 <template>
-  <E01Instance />
+  <E09CompositionApi2 />
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
-import E01Instance from "@/components/example1/E-01-instance.vue";
-
-export default defineComponent({
-  name: 'App',
-  components: {
-    E01Instance
-  }
-});
+<script setup lang="ts">
+import E09CompositionApi2 from '@/components/example5/E-09-composition-API2.vue'
 </script>
 
 <style>
